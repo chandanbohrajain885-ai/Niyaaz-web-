@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /classic
+
+Sitemap: https://niyaaz.in/sitemap.xml

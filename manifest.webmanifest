@@ -1,0 +1,9 @@
+{
+  "name": "Niyaaz — The Original Belgaum Biryani",
+  "short_name": "Niyaaz",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf2",
+  "theme_color": "#5b1220",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

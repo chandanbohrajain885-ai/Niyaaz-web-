@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niyaaz Restaurant — Authentic Belgaum Biryani since 1989</title>
+<meta name="description" content="The Original Belgaum Biryani since 1989. Authentic dum biryani, Awadhi kebabs & Mughlai cuisine. Branches in Belagavi, Goa & Kolhapur.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ribbon">Version A — like-for-like rebuild of the current site's scope (brochure only). <a href="index.html" style="color:#fff;font-weight:700">See Version B: the growth platform →</a></div>
+<nav class="nav" aria-label="Main">
+  <div class="container">
+    <a href="#top" class="logo"><span class="logo-text">NIYAAZ<small>Restaurant</small></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#branches">Branches</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+<main>
+<header class="hero" id="top">
+  <div class="container" style="grid-template-columns:1fr;text-align:center;padding:7rem 0">
+    <div>
+      <span class="eyebrow">Since 1989</span>
+      <h1>Authentic <em>Belgaum Biryani</em></h1>
+      <p class="lead" style="margin:0 auto">Slow-cooked dum biryani, tandoor kebabs and Mughlai classics — served in Belagavi, Goa and Kolhapur.</p>
+      <div class="ctas" style="justify-content:center"><a class="btn btn-gold" href="#menu">View Menu</a><a class="btn btn-ghost" href="#branches">Our Branches</a></div>
+    </div>
+  </div>
+</header>
+<section id="about"><div class="container story">
+  <div><span class="eyebrow" style="color:var(--gold)">About Us</span><h2>The Original Belgaum Biryani</h2>
+  <p>Serving Belagavi since 1989 with a recipe that has stayed true for over three decades: marinated meat and long-grain rice, sealed and slow-cooked on dum.</p>
+  <p>Today Niyaaz serves guests across Belagavi, Goa and Kolhapur.</p></div>
+  <div class="panel" style="text-align:center"><div style="font-size:5rem">🍚</div><p style="font-family:var(--display);font-size:1.6rem;color:var(--maroon)">Dum Biryani · Awadhi Kebabs · Mughlai</p></div>
+</div></section>
+<section id="menu" class="alt"><div class="container">
+  <div class="sec-head"><span class="eyebrow">Our Menu</span><h2>Menu</h2></div>
+  <div class="menu-list" id="cMenu"></div>
+</div></section>
+<section id="branches"><div class="container">
+  <div class="sec-head"><span class="eyebrow">Locations</span><h2>Our Branches</h2></div>
+  <div class="br-grid" id="cBr"></div>
+</div></section>
+<section id="contact" class="alt"><div class="container" style="text-align:center">
+  <div class="sec-head"><span class="eyebrow">Contact</span><h2>Visit Us</h2><p>Open daily, 11:00 AM – 11:00 PM. Please contact your nearest branch.</p></div>
+</div></section>
+</main>
+<footer class="site"><div class="container"><div class="legal"><span>© <span id="yr"></span> Niyaaz Restaurant</span><span>Belagavi · Goa · Kolhapur</span></div></div></footer>
+<script src="data.js"></script>
+<script src="store.js"></script>
+<script src="classic.js"></script>
+</body>
+</html>
